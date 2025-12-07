@@ -1,7 +1,8 @@
 
 
 import {  type JSX } from 'react'
-import './App.css'
+
+
 
 import { Countdown } from './components/Countdown'
 

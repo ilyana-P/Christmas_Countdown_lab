@@ -24,12 +24,16 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
   min-height: 100vh;
-}
+  width: 100vw;
 
+    background-image: url("https://images.pexels.com/photos/695971/pexels-photo-695971.jpeg?cs=srgb&dl=pexels-ifreestock-695971.jpg&fm=jpg");
+  
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
