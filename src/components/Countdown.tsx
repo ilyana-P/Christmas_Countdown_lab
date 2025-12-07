@@ -79,29 +79,17 @@ export function Countdown(): JSX.Element {
   // 9. Отображение результата
   return (
     <div className={styles.container}>
-      <div>
-        <h2
-          style={{
-            fontFamily: "Mountains of Christmas",
-            fontSize: "42px",
-            textAlign: "center",
-            color: "white",
-          }}
-        >
-          {" "}
-          До рождества осталось:
-        </h2>
-        <p
-          style={{
-            fontFamily: "Mountains of Christmas",
-            fontSize: "36px",
-            color: "white",
-            textAlign: "center",
-          }}
-        >
-          {time.days} дн. {time.hours} ч. {time.minutes} мин. {time.seconds}{" "}
-          сек.
-        </p>
+        <div className={styles.blurBox}>
+            <div>
+        <h2 className={styles.title}>До рождества осталось:</h2>
+
+        <div className={styles.timeContainer}>
+          <div className={styles.timeBox}>{time.days} дн</div>
+          <div className={styles.timeBox}>{time.hours} ч</div>
+          <div className={styles.timeBox}>{time.minutes} мин</div>
+          <div className={styles.timeBox}>{time.seconds} сек</div>
+        </div> </div>
+      
       </div>
     </div>
   );
