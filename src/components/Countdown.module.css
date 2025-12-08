@@ -35,3 +35,20 @@ height: 100vh;
   display: inline-block;
   border-radius: 16px;
 }
+@media (max-width: 480px) {
+  .container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100vh;           
+    padding-left: 0;         
+
+  .blurBox {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 320px;
+    padding: 14px;
+  }
+}
+}
